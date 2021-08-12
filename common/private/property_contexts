@@ -14,5 +14,11 @@ ro.minui.default_touch_rotation        u:object_r:recovery_config_prop:s0
 # Recovery update
 persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 
+# Themed Bootanimation dynamic colors
+persist.bootanim.color1                u:object_r:bootanim_system_prop:s0
+persist.bootanim.color2                u:object_r:bootanim_system_prop:s0
+persist.bootanim.color3                u:object_r:bootanim_system_prop:s0
+persist.bootanim.color4                u:object_r:bootanim_system_prop:s0
+
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool

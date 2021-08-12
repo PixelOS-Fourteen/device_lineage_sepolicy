@@ -9,3 +9,7 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 
 # Allow PowerShare HAL service to be found
 hal_client_domain(platform_app, hal_lineage_powershare)
+
+# allow systemui to set boot animation colors
+get_prop(platform_app, bootanim_system_prop)
+set_prop(platform_app, bootanim_system_prop)
